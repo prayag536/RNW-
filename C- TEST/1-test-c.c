@@ -21,17 +21,68 @@ int main()
 ----------------------------------------------------------------------------------
 
 
-# include <stdio.h>
-int main()
-{   
-    flot bs;
-    int HRA=10; 
-    int DA=5;
-    int TA=8;
-printf ("enter a base salay" bs);
-scanf  ("%f", &bs);
+#include <stdio.h>
 
+int main()
+{
+    float bs;
+    int hra = 10;
+    int da = 5;
+    int ta = 8;
+    
+    float ab;
+    printf("input a base salary:-");
+    scanf("%f", &bs);
+    float s =bs*0.01*hra;
+    float p =bs*0.01*da;
+    float j =bs*0.01*ta;
+     
+    ab=bs+s+p+j;
+    printf("gross salary:- %.2f", ab); 
+
+    return 0;
+}
+
+----------------------------------------------------------------------------------
+
+
+
+#include <stdio.h>
+
+int main()
+{
+  float g;
+  float j;
+  float p;
+   
+  printf("first angle:");
+  scanf("%f", &g);
+  
+  printf("second angle:");
+  scanf("%f", &j);
+  
+  float r= g+j;
+        p=180-r;
+        
+  printf("third angle: %.2f", p);
+  
+  return 0;
 }
 
 
+
 ----------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
