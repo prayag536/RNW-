@@ -10,7 +10,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 int main()
 {
-     flot c;
+     float c;
     printf("enter temperature in celsius:-");
     scanf("%f",&c);
     flot f=(1.8*c)+32;
