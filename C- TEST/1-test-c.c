@@ -1,19 +1,11 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <stdio.h>
 
 int main()
 {
-     flot c;
+     float c;
     printf("enter temperature in celsius:-");
     scanf("%f",&c);
-    flot f=(1.8*c)+32;
+    float f=(1.8*c)+32;
     printf("%.1f celsius temperature in fahrenheit is:-%.1f",c,f);
     return 0;
 }
@@ -69,20 +61,4 @@ int main()
   return 0;
 }
 
-
-
 ----------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
