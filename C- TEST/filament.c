@@ -8,8 +8,10 @@ int main()
 
     printf("Enter any string:");
     scanf("%s", str);
-
-    for (int i = 0; i < 1/ 2; i++)
+   
+    length = strlen(str);
+    
+    for (int i = 0; i <length/ 2; i++)
     {
         if (str[i] != str[length - i - 1])
         
